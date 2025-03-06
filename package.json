@@ -13,6 +13,7 @@
     "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
     "chai": "^5.2.0",
     "cypress": "^14.1.0",
+    "dotenv": "^16.4.7",
     "mocha": "^11.1.0",
     "supertest": "^7.0.0"
   }
