@@ -1,0 +1,19 @@
+{
+  "name": "cypress-mocha-tests",
+  "version": "1.0.0",
+  "description": "This project will include automated tests for both UI and API testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "chai": "^5.2.0",
+    "cypress": "^14.1.0",
+    "mocha": "^11.1.0",
+    "supertest": "^7.0.0"
+  }
+}
