@@ -3,7 +3,6 @@ describe("Reqres API Tests", () => {
         cy.log("Starting a new test...");
     });
 
-    // ✅ GET Requests (Positive Tests)
     it("should return a list of users", () => {
         cy.request({
             method: "GET",
@@ -24,7 +23,6 @@ describe("Reqres API Tests", () => {
         });
     });
 
-    // ❌ GET Request (Negative Test)
     it("should return 404 for a non-existent user", () => {
         cy.request({
             method: "GET",
@@ -35,7 +33,6 @@ describe("Reqres API Tests", () => {
         });
     });
 
-    // ✅ POST Requests (Positive Tests)
     it("should create a new user", () => {
         cy.request({
             method: "POST",
@@ -65,7 +62,6 @@ describe("Reqres API Tests", () => {
         });
     });
 
-    // ❌ POST Request (Negative Test)
     it("should return 400 when registering without a password", () => {
         cy.request({
             method: "POST",
